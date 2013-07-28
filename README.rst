@@ -4,10 +4,10 @@
 currentcost
 ===========
 
-currentcost is a small Python framework for interfacing with a CurrentCost
-CC-128 meter. It provides facilities for obtaining the XML data stream from the
-meter and converting it to a variety of database formats (SQL-based databases,
-or the RRDTool database format currently).
+currentcost is a small Python-based suite (daemon and library) for interfacing
+with a CurrentCost CC-128 meter. It provides facilities for obtaining the XML
+data stream from the meter and converting it to a variety of database formats
+(CSV and XML files for loading, or SQLite direct output currently).
 
 The project is written in `Python`_ and is open-sourced under the GPL license.
 The `source code`_ can be obtained from GitHub. The `documentation`_ can be
