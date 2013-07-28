@@ -65,7 +65,7 @@ class CC128Application(TerminalApplication):
             '-d', '--daemon', dest='daemon', action='store_true',
             help='if specified, start the application as a background daemon')
         self.parser.add_option(
-            '-s', '--meter-clock', dest='system_clock', action='store_false',
+            '--meter-clock', dest='system_clock', action='store_false',
             help="if specified, use the meter's clock instead of the system's")
         self.parser.add_option(
             '--output-json', dest='json_file', action='store',
